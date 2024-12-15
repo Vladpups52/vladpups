@@ -1,0 +1,32 @@
+
+body{
+    margin 0;
+    padding: 0;
+    font-family: serif;
+}
+
+header{
+    height: 80px;
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        background-color: cadetblue;
+}
+
+nav{
+    display: flex;
+    gap: 80px;
+}
+
+
+.banner{
+    height: 90vh;
+    width: 100%;
+    background-image: url(img/depositphotos_75834705-stock-illustration-dog-bird-and-cat-with.jpg);
+    background-position: center;
+    background-size: cover;
+}
